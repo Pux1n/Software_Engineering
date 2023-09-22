@@ -25,12 +25,10 @@
 ### Выведите в консоль три строки. Первая – любое число. Вторая – любое число в виде строки. Третья – любое число с плавающей точкой.
 
 ```python
-print(123)
-print('123')
-print(1.23)
+https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/lab21.py
 ```
 ### Результат.
-![Меню](https://github.com/vnika2003/Software_Engineering/blob/Тема_2/pic/Lab2_1.png)
+![Меню](https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/pic/1.png)
 
 ## Выводы
 
