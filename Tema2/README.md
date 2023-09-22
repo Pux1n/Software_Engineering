@@ -24,9 +24,9 @@
 ## Лабораторная работа №1
 ### Выведите в консоль три строки. Первая – любое число. Вторая – любое число в виде строки. Третья – любое число с плавающей точкой.
 
-```python
+
 https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/lab21.py
-```
+
 ### Результат.
 ![Меню](https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/pic/1.png)
 
@@ -43,9 +43,9 @@ https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/lab21.py
 ## Лабораторная работа №2
 ### Выведите в консоль три строки. Первая – результат сложения или вычитания минимум двух переменных типа int. Вторая – результат сложения или вычитания минимум двух переменных типа float. Третья – результат сложения или вычитания минимум двух переменных типа int и float.
 
-```python
+
 https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/lab22.py
-```
+
 ### Результат.
 ![Меню](https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/pic/2.png)
 
