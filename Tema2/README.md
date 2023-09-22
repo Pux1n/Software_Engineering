@@ -24,7 +24,11 @@
 ## Лабораторная работа №1
 ### Выведите в консоль три строки. Первая – любое число. Вторая – любое число в виде строки. Третья – любое число с плавающей точкой.
 
-https://github.com/Pux1n/Software_Engineering/blob/e0039dfa248997cae87ae16ec9372d00b560ecdd/Tema2/lab21.py#L1-L3C12
+```python
+print(123)
+print('123')
+print(1.23)
+```
 
 ### Результат.
 ![Меню](https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/pic/1.png)
@@ -43,7 +47,9 @@ https://github.com/Pux1n/Software_Engineering/blob/e0039dfa248997cae87ae16ec9372
 ### Выведите в консоль три строки. Первая – результат сложения или вычитания минимум двух переменных типа int. Вторая – результат сложения или вычитания минимум двух переменных типа float. Третья – результат сложения или вычитания минимум двух переменных типа int и float.
 
 ```python
-https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/lab22.py
+print(1823 - 486)
+print(5.1 + 8.27)
+print(3 + 7.04 + 1 + 2.33)
 ```
 
 ### Результат.
@@ -63,7 +69,14 @@ https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/lab22.py
 ### Выведите в консоль три строки. Первая – обычная строка. Вторая – F строка с использованием заранее объявленной переменной. Третья – сложите две или более строк в одну.
 
 ```python
-https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/lab23.py
+print('Привет, Мир!')
+
+world = 'Мир'
+print(f"Привет, {world}")
+
+one = 'Привет, '
+two = 'Мир!'
+print(one + two)
 ```
 ### Результат.
 ![Меню](https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/pic/3.png)
@@ -83,8 +96,16 @@ https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/lab23.py
 ### Выведите в консоль три строки. Первая – трансформация любого типа переменной в bool. Вторая – трансформация любого типа переменной в float или int. Третья – трансформация любого типа переменной в str.
 
 ```python
-https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/lab24.py
+one = 'Hello'
+print(bool(one))
+
+two = 142
+print(float(two))
+
+three = None
+print(str(three))
 ```
+
 ### Результат.
 ![Меню](https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/pic/4.png)
 
@@ -102,8 +123,12 @@ https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/lab24.py
 ### Присвойте трем переменным различные значения, воспользовавшись функцией input().
 
 ```python
-https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/lab25.py
+one = input('one:')
+two = input('two:')
+three = input('three:')
+print(one, two, three)
 ```
+
 ### Результат.
 ![Меню](https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/pic/5.png)
 
@@ -124,8 +149,14 @@ https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/lab25.py
 ### Создайте две любые числовые переменные и выполните над ними несколько математических операций: возведение в степень, обычное деление, целочисленное деление, нахождение остатка от деления. При желании вы можете проверить как работают эти вычисления с разными типами данных, например, сначала создать две переменные int, затем создать две переменные float и наконец создать переменные типа int и float и наконец создать переменные типа int и float и провести над ними операции, прописанные выше.
 
 ```python
-https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/lab26.py
+a = 12
+b = 5
+print('Возведение в степень:', a ** b)
+print('Обычное деление:', a / b)
+print('Целочисленное деление:', a // b)
+print('Нахождение остатка от деления:', a % b)
 ```
+
 ### Результат.
 ![Меню](https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/pic/6.png)
 
@@ -146,8 +177,10 @@ https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/lab26.py
 ### Создайте любую строковую переменную и произведите над ней математическое действие умножение на любое число.
 
 ```python
-https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/lab27.py
+line = 'Hello!'
+print(line * 6)
 ```
+
 ### Результат.
 ![Меню](https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/pic/7.png)
 
@@ -159,8 +192,10 @@ https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/lab27.py
 ### Посчитайте сколько раз символ ‘o’ встречается в строке ‘Hello World’.
 
 ```python
-https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/lab28.py
+sentence = 'Hello World'
+print(sentence.count('o'))
 ```
+
 ### Результат.
 ![Меню](https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/pic/8.png)
 
@@ -172,8 +207,9 @@ https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/lab28.py
 ### Напишите предложение ‘Hello World’ в две строки. Написанная программа должна занимать одну строку в редакторе кода.
 
 ```python
-https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/lab29.py
+print('Hello\nWorld')
 ```
+
 ### Результат.
 ![Меню](https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/pic/9.png)
 
@@ -185,7 +221,9 @@ https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/lab29.py
 ### Из предложения ‘Hello World’ выведите в консоль только 2 символ, а затем выведите слово ‘Hello’.
 
 ```python
-https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/lab210.py
+sentence = 'Hello World'
+print(sentence[1])
+print(sentence[:5])
 ```
 ### Результат.
 ![Меню](https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/pic/10.png)
@@ -198,8 +236,9 @@ https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/lab210.py
 ### Выведите в консоль булевую переменную False, не используя слово False в строке или изначально присвоенную булевую переменную. Программа должна занимать не более двух строк редактора кода.
 
 ```python
-https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/sam21.py
+print(1>2)
 ```
+
 ### Результат.
 ![Меню](https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/pic/s1.png)
 
@@ -211,8 +250,10 @@ https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/sam21.py
 ### Присвоить значения трем переменным и вывести их в консоль, используя только две строки редактора кода.
 
 ```python
-https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/sam22.py
+a = b = c = 1
+print(a, b, c)
 ```
+
 ### Результат.
 ![Меню](https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/pic/s2.png)
 
@@ -224,8 +265,10 @@ https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/sam22.py
 ### Реализуйте ввод данных в программу, через консоль, в виде только целых чисел (тип данных int). То есть при вводе буквенных символов в консоль, программа не должна работать. Программа должна занимать не более двух строк редактора кода
 
 ```python
-https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/sam23.py
+a = int(input('Введите целое число: '))
+print(f'Целое число: {a}')
 ```
+
 ### Результат.
 ![Меню](https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/pic/s3.1.png)
 ![Меню](https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/pic/s3.2.png)
@@ -239,8 +282,10 @@ https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/sam23.py
 ### Создайте только одну строковую переменную. Длина строки должна не превышать 5 символов. На выходе мы должны получить строку длиной не менее 16 символов. Программа должна занимать не более двух строк редактора кода.
 
 ```python
-https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/sam24.py
+a = '12345'
+print(5*a)
 ```
+
 ### Результат.
 ![Меню](https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/pic/s4.png)
 
@@ -252,8 +297,12 @@ https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/sam24.py
 ### Создайте три переменные: день (тип данных - числовой), месяц (тип данных - строка), год (тип данных - числовой) и выведите в консоль текущую дату в формате: “Сегодня день месяц год. Всего хорошего!” используя F строку и оператор end внутри print(), в котором вы должны написать фразу “Всего хорошего!”. Программа должна занимать не более двух строк редактора кода.
 
 ```python
-https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/sam25.py
+day = 3
+month = 'февраля'
+year = 2023
+print(f'Сегодня {day} {month} {year} год. ', end='Всего хорошего!')
 ```
+
 ### Результат.
 ![Меню](https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/pic/s5.png)
 
@@ -265,8 +314,10 @@ https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/sam25.py
 ### В предложении ‘Hello World’ вставьте ‘my’ между двумя словами. Выведите полученное предложение в консоль в одну строку. Программа должна занимать не более двух строк редактора кода.
 
 ```python
-https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/sam26.py
+a = 'Hello World'
+print(a[:6] + 'my' + a[5:])
 ```
+
 ### Результат.
 ![Меню](https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/pic/s6.png)
 
@@ -278,8 +329,9 @@ https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/sam26.py
 ### Узнайте длину предложения ‘Hello World’, результат выведите в консоль. Программа должна занимать не более двух строк редактора кода.
 
 ```python
-https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/sam27.py
+print(len('Hello World'))
 ```
+
 ### Результат.
 ![Меню](https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/pic/s7.png)
 
@@ -291,8 +343,9 @@ https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/sam27.py
 ### Переведите предложение ‘HELLO WORLD’ в нижний регистр. Программа должна занимать не более двух строк редактора кода.
 
 ```python
-https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/sam28.py
+print('HELLO WORLD'.lower())
 ```
+
 ### Результат.
 ![Меню](https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/pic/s8.png)
 
@@ -304,8 +357,17 @@ https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/sam28.py
 ### Самостоятельно придумайте задачу по проходимой теме и решите ее. Задача должна быть связана со взаимодействием с числовыми значениями.
 
 ```python
-https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/sam29.py
+""" 
+Напишите программу, которая выводит результат
+деления двух вводимых чисел
+"""
+
+a = input('Введите делимое число: ')
+b = input('Введите делитель: ')
+c = int(a) / int(b)
+print('Результат: ', c)
 ```
+
 ### Результат.
 
 ![Меню](https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/pic/s9.png)
@@ -318,8 +380,16 @@ https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/sam29.py
 ### Самостоятельно придумайте задачу по проходимой теме и решите ее. Задача должна быть связана со взаимодействием с числовыми значениями.
 
 ```python
-https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/sam210.py
+""" 
+Разделите предложение "Hello World" на два слова, каждое
+занесите в переменную и выведите длину этих переменных.
+"""
+a = "Hello World"
+b = a[:5]
+c = a[-5:]
+print(len(b), len(c))
 ```
+
 ### Результат.
 ![Меню](https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/pic/s10.png)
 
