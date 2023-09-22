@@ -24,7 +24,7 @@
 ## Лабораторная работа №1
 ### Выведите в консоль три строки. Первая – любое число. Вторая – любое число в виде строки. Третья – любое число с плавающей точкой.
 
-<!-- MARKDOWN-AUTO-DOCS:START (CODE:src=https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/lab21.py) -->
+<!-- MARKDOWN-AUTO-DOCS:START (CODE:src=./Tema2/lab21.py) -->
 <!-- MARKDOWN-AUTO-DOCS:END -->
 
 ```python
