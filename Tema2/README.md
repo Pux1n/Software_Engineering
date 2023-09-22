@@ -24,9 +24,7 @@
 ## Лабораторная работа №1
 ### Выведите в консоль три строки. Первая – любое число. Вторая – любое число в виде строки. Третья – любое число с плавающей точкой.
 
-```python
-Tema2/lab21.py
-```
+https://github.com/Pux1n/Software_Engineering/blob/e0039dfa248997cae87ae16ec9372d00b560ecdd/Tema2/lab21.py#L1-L3C12
 
 ### Результат.
 ![Меню](https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/pic/1.png)
