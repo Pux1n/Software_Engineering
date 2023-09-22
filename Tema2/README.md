@@ -227,7 +227,9 @@ https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/sam22.py
 https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/sam23.py
 ```
 ### Результат.
-![Меню](https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/pic/s3.png)
+![Меню](https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/pic/s3.1.png)
+![Меню](https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/pic/s3.2.png)
+![Меню](https://github.com/Pux1n/Software_Engineering/blob/Tema2/Tema2/pic/s3.3.png)
 
 ## Выводы
 
