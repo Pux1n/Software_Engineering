@@ -1,12 +1,12 @@
-import random
+from random import randint
 
 
 def main():
-    x = random.randint(1, 6)
+    x = randint(1, 6)
     print(x)
-    if x == (5 or 6):
+    if x in (5, 6):
         print("Вы победили")
-    elif x == (1 or 2):
+    elif x in (1, 2):
         print("Вы проиграли")
     else:
         main()
