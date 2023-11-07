@@ -1,10 +1,10 @@
 def remove(tpl, value):
-    if value in tpl:
+    if value not in tpl:
+        return tpl
+    else:
         i = tpl.index(value)
         new_tpl = tpl[:i] + tpl[i + 1:]
         return new_tpl
-    else:
-        return tpl
 
 
 print(remove((1, 2, 3), 1))
