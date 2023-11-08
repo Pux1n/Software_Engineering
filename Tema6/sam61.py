@@ -1,5 +1,0 @@
-input_data = input("Введите последовательность чисел через пробел: ")
-lst = input_data.split(' ')
-tpl = tuple(lst)
-print(lst)
-print(tpl)
