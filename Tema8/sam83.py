@@ -10,7 +10,6 @@ class Animal:
 class Cat(Animal):
     def __init__(self, name):
         super().__init__("Кот", name)
-        self.name = name
 
     def purr(self):
         print(f"Кот {self.name} мурчит.")
