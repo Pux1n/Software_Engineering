@@ -1,7 +1,7 @@
 import telebot
 from telebot import types
 
-bot = telebot.TeleBot('6797479769:AAGy-waoaZX04kyPpZuYjdDbHEuQOXN5N6U')
+bot = telebot.TeleBot('')
 
 size = 5
 board = [['⏹️' for r in range(size)] for c in range(size)]
